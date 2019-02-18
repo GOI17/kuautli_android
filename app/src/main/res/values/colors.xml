@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0483d9</color>
+    <color name="colorPrimaryDark">#0073d8</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="editTextColor">#fff</color>
+    <color name="editTextColorText">#000</color>
+    <color name="editTextColorHint">@android:color/darker_gray</color>
+    <color name="buttonEnter">#FFF</color>
+    <color name="buttonEnterBackground">#0380d4</color>
+    <color name="login">#FFF</color>
+    <color name="profile">#FFF</color>
+    <color name="labelProfile">#d3d3d3</color>
+    <color name="textProfile">#000</color>
+</resources>

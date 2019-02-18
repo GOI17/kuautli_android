@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Logo">
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:src">@drawable/logo_kuautli</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">120dp</item>
+    </style>
+
+    <style name="userLogo">
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:src">@drawable/user_icon</item>
+    </style>
+
+    <style name="userName">
+        <item name="android:layout_width">340dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:hint">@string/hint_username</item>
+        <item name="android:textSize">23dp</item>
+        <item name="android:textColorHint">@color/editTextColorHint</item>
+        <item name="android:textColor">@color/editTextColorText</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:backgroundTint" tools:ignore="NewApi">#ccc</item>
+        <item name="android:colorActivatedHighlight">@color/colorPrimary</item>
+    </style>
+
+    <style name="password">
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_width">340dp</item>
+        <item name="android:hint">@string/hint_password</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">23dp</item>
+        <item name="android:textColorHint">@color/editTextColorHint</item>
+        <item name="android:textColor">@color/editTextColorText</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:backgroundTint" tools:ignore="NewApi">#ccc</item>
+    </style>
+
+    <style name="Enter">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:text">ENTER</item>
+        <item name="android:textColor">@color/buttonEnter</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:background">@drawable/round_shape_btn</item>
+    </style>
+</resources>

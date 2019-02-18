@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@color/profile"
+    android:orientation="vertical">
+
+    <ImageView
+        style="@style/Image" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:text="First Name"
+       style="@style/label" />
+
+    <TextView
+        android:id="@+id/tvFirstName"
+        android:text="Gilberto"
+        style="@style/labelText" />
+
+    <TextView
+        android:text="Last Name"
+        style="@style/label" />
+
+    <TextView
+        android:id="@+id/tvLastName"
+        android:text="Olivas"
+        style="@style/labelText" />
+
+    <TextView
+        android:text="Phone Number"
+        style="@style/label" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:text="+52 1 664 123 456"
+        style="@style/labelText" />
+
+    <TextView
+        android:text="User Name"
+        style="@style/label" />
+
+    <TextView
+        android:id="@+id/tvUserID"
+        android:text="Guard1"
+        style="@style/labelText" />
+
+    <TextView
+        android:text="Password"
+        style="@style/label" />
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:text="12345"
+        style="@style/labelText"
+        android:inputType="textPassword"/>
+
+
+</LinearLayout>
